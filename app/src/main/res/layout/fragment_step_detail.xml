@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StepsDetailFragment">
+
+    <include layout="@layout/step_detail" />
+    <!--step_detail 로 안의 content 를 분리해서 따로 놓는다. 태블릿 화면에서도
+    똑같은 내용을 태블릿 가로 모드에 추가해야 하기 때문에
+    폰 화면의 세로 / 태블릿 화면의 가로에 넣을 내용을 분리한 것이다. -->
+</FrameLayout>

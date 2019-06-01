@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BakingApp_2</string>
+    <string name="step">STEP</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="next">NEXT</string>
+    <string name="ingredients">INGREDIENTS</string>
+    <string name="steps">STEPS</string>
+    <string name="step_details">STEP DETAILS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">BAKING APP</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="date_count_format">%1$d @%2$s</string>
+    <string name="show_on_home_screen">DISPLAY THIS ON HOME SCREEN</string>
+
+    <string name="recipe_image">recipeImage</string>
+
+</resources>

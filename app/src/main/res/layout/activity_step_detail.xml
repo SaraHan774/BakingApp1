@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StepsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/steps_detail_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/steps_detail_container_single"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--태블릿의 세로 모드, 폰의 세로 모드에서 보여주어야 할 화면의
+        컨테이너-->
+
+    </FrameLayout>
+
+</LinearLayout>
