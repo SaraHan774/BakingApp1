@@ -28,10 +28,17 @@
                     app:layout_collapseParallaxMultiplier="0.7"
                     />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/scrim_gradient"
+                />
+
             <androidx.appcompat.widget.Toolbar
             android:id="@+id/detail_toolbar"
             android:layout_height="?attr/actionBarSize"
             android:layout_width="match_parent"
+            android:theme="@style/ToolBarStyle"
             app:layout_collapseMode="pin"
             app:layout_scrollFlags="scroll|enterAlways"/>
 

@@ -3,6 +3,7 @@ package com.sarahan.bakingapp_2;
 import androidx.annotation.VisibleForTesting;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
@@ -114,6 +115,8 @@ public class DetailActivity extends AppCompatActivity
                     .error(R.drawable.ic_launcher_background)
                     .fit().centerInside().into(imageView);
         }
+//        toolbar.setTitleTextColor(getResources().getColor(R.color.actionBarText));
+//TODO : set color of the text in the support action bar
     }
 
     public void setAdapters(){
