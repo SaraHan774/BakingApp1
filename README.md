@@ -1,8 +1,3 @@
----
-
-
----
-
 <h1 id="udacity-project--baking-app">Udacity Project : Baking App</h1>
 <p><strong>[photo will be added soon]</strong></p>
 <p>This App is a Toy project that I made during taking Android course on Udacity. This App is really simple. It reads JSON data from the web(the url was provided from Udacity), which contains 4 different recipes. Content includes the food name, ingredients name, cooking steps, and cooking video files and etc.</p>
